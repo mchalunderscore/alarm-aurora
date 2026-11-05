@@ -1,5 +1,7 @@
 # Aurora Alarm
 
+This is the `mchalunderscore` J614s fork. See [the fork stack and validation limits](docs/j614s-stack.md) for its source overrides; the publication and channel documentation below describes Aurora upstream.
+
 Arch Linux ARM packages and images for Aurora on Apple Silicon. The native [Aurora installer](https://github.com/aurora-silicon/aurora-installer) offers KDE Plasma, GNOME and minimal profiles, alongside Fedora and NixOS.
 
 Hardware PKGBUILDs retain the provenance of Aurora's reviewed Arch packaging and pin the common Aurora kernel, Mesa, Aura and U-Boot sources. `sources.json` records the shared revisions; `images/base.json` pins the official signed Arch Linux ARM root filesystem. The included build-system public key verifies the image's detached signature before extraction.
